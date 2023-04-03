@@ -13,12 +13,7 @@ class Home extends StatelessWidget {
     return Scaffold(
 
       body:Container(
-        decoration: BoxDecoration(
-          image: DecorationImage(
-            image: AssetImage("d4e6118fa91e7d91f7a71d240b8be6c1.jpg")
-              ,fit: BoxFit.cover,
-          )
-        ),
+      
         child: Padding(
           padding: const EdgeInsets.only(top:100.0,left: 20),
           child: Column(
@@ -26,7 +21,7 @@ class Home extends StatelessWidget {
               Row(
                 children: <Widget>[
 
-                  CircleAvatar(radius: 60,backgroundImage: AssetImage("images/Screenshot (18).png"),
+                  CircleAvatar(radius:55,backgroundImage: AssetImage("images/Screenshot (18).png"),
                   ),
                   SizedBox(width: 20,),
                   Column(
